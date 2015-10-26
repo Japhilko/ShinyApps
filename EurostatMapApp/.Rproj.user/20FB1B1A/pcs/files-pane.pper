@@ -1,0 +1,9 @@
+{
+    "path" : "~/GitHub/GeoData/Apps/EurostatMapApp",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

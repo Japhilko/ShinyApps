@@ -1,0 +1,9 @@
+{
+    "path" : "~/GitHub/GeoData/Apps/BasicApp",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
