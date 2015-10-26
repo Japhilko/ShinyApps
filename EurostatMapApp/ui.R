@@ -11,10 +11,15 @@ shinyUI(fluidPage(
 
   # Application title
   titlePanel("GDP Europe"),
-
-    # Show a plot of the generated distribution
-    mainPanel(
-      plotOutput("map")
-    )
+  sidebarPanel(
+    selectInput("var", 
+                label = "Choose a variable to display",
+                choices = c("X2012Q3", "X2012Q4"),
+                selected = "X2012Q3")
+  ),
+  # Show a plot of the generated distribution
+  mainPanel(
+    plotOutput("map")
   )
+)
 )
