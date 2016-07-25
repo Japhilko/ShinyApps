@@ -1,7 +1,7 @@
 library(shiny)
 
 shinyUI(navbarPage("Indicators",
-                   tabPanel("GDP Europe",
+                   tabPanel("Indicator 1",
   sidebarPanel(
     selectInput("var", 
                 label = "Choose a variable to display",
@@ -18,7 +18,7 @@ shinyUI(navbarPage("Indicators",
   mainPanel(
     plotOutput("map")
   )),
-  tabPanel("Unemployment Europe",
+  tabPanel("Indicator 2",
   sidebarPanel(
     selectInput("var2", 
                 label = "Choose a variable to display",
